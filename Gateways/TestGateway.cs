@@ -9,7 +9,7 @@ namespace ShellHacksBackend.Gateways
     {
         public string GetTest()
         {
-            return "TestAPI";
+            return "Hello World";
         }
         public int GetTestID(int id)
         {
