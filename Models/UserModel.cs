@@ -16,7 +16,7 @@ namespace ShellHacksBackend.Models
         protected string UserPass { get; private set; }
         [JsonProperty(PropertyName = "monthlyincome")]
         public double MonthlyIncome { get; set; }
-        [JsonProperty(PropertyName = "monthlyincome")]
+        [JsonProperty(PropertyName = "monthlydebt")]
         public double MonthlyDebt { get; set; }
         [JsonProperty(PropertyName = "monthlyspending")]
         public double MonthlySpending { get; set; }
